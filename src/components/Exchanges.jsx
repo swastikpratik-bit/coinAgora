@@ -4,6 +4,7 @@ import { server } from "../main.jsx";
 import { Container, HStack, VStack, Heading , Image , Text, Button} from "@chakra-ui/react";
 import Loader from "./Loader.jsx";
 import ErrorCom from "./ErrorCom.jsx"
+import GoUp from "./GoUp.jsx";
 
 const Exchanges = () => {
   const [exchanges, setExchanges] = useState([]);
@@ -63,7 +64,8 @@ const Exchanges = () => {
                   <Button bgColor={"gray.400"} color={"black"} onClick={() => changePage(index + 1)}>{ index + 1}</Button>  
                 ))  
               }  
-          </HStack>
+            </HStack>
+            <GoUp/>
         </>
       )}
     </Container>

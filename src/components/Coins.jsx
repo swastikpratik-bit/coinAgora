@@ -5,6 +5,7 @@ import { Container, HStack, VStack, Heading , Image , Text, Button, RadioGroup, 
 import Loader from "./Loader.jsx";
 import ErrorCom from "./ErrorCom.jsx"
 import { Link } from "react-router-dom";
+import GoUp from "./GoUp.jsx";
 
 
 const Coins = () => {
@@ -78,7 +79,7 @@ const Coins = () => {
               }  
           </HStack>
           
-            
+          <GoUp/>
         </>
       )}
     </Container>

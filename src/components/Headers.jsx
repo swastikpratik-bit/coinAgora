@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Headers = () => {
   return (
-    <HStack p={"4"} shadow={"base"} bgColor={"orange.600"}  position={"sticky"} top={0}>
+    <HStack p={"4"} shadow={"base"} bgColor={"orange.600"}  position={"sticky"} top={0}  zIndex={1}>
       <Button variant={"unstyles"} color={"black"}>
         <Link to="/">Home</Link> 
       </Button>

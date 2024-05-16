@@ -10,7 +10,7 @@ const ErrorCom = ({ message }) => {
       left={"50%"}
       transform={"translateX(-50%)"}
       
-      w={"container.lg"}
+      w={"60vw"}
     >
       <AlertIcon />
       {message}
